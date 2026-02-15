@@ -1,0 +1,17 @@
+# Auto-detect text files and normalize line endings to LF
+* text=auto
+
+# Explicitly define text files
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.db binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
